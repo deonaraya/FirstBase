@@ -17,7 +17,7 @@ public class AddToCartSuccessPopUp {
 
 	public AddToCartSuccessPopUp(WebDriver driver) {
 		this.driver = driver;
-		PageFactory.initElements(driver, AddToCartSuccessPopUp.class);
+		PageFactory.initElements(driver, this);
 	}
 	
 	

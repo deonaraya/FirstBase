@@ -36,7 +36,7 @@ public class MyTestsA {
 	
 	@Test void getNames(){
 		HomePage page = new HomePage(driver);
-		page.getProductNames();
+		page.getProductNames().getProductPrices().addnew();
 	}
 	
 	@AfterClass
